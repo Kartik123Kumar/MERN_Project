@@ -2,6 +2,40 @@
   text-align: center;
 }
 
+
+.nav-ul{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 58px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+ul li{
+  padding: 0 20px;
+}
+
+/* .container{ */
+  /* display: flex;
+  align-items: center;
+  margin-left: auto;
+} */
+
+.forms{
+width: 523px;
+position: absolute;
+left: 465px;
+}
+
+.formLogin{
+  width: 423px;
+  position: absolute;
+  left: 465px;
+  margin-top: 122px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -23,6 +57,34 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.container{
+  width: 364px;
+  margin-top: 155px;
+}
+
+.product{
+margin-top: 112px;
+position: absolute;
+left: 572px;
+}
+
+.ProductList{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.ProductList ul li{
+  display: inline-block;
+  width: 150px;
+  padding: 5px;
+  border: 2px solid blue;
+}
+.ProductList ul{
+  margin: 0;
+}
+
+
 
 .App-link {
   color: #61dafb;
